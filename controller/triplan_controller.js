@@ -8,7 +8,7 @@ controller.register = function(req, res) {
 
 controller.login = function(req, res) {
     res.render('login')
-}
+} 
 
 controller.createtrip = function(req, res) {
      let data = {
